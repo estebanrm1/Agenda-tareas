@@ -15,14 +15,21 @@
     <main class="container text-center">
     <h1 class="mt-5">Agenda de tareas 📝</h1>
     <hr>
-    <div class="container-input">
-        <input type="text" class="form-control text-center my-2" placeholder="Tarea" aria-label="Recipient's username" aria-describedby="button-addon2" required>
-        <button class="btn btn-danger mx-1" type="button" id="button-addon2">Agregar a lista de tareas</button>
-        <button class="btn btn-danger" type="button" id="button-addon2">Eliminar de la lista de tareas</button>
-    </div>
+    <form class="container-input">
+        <input type="text" class="form-control text-center my-2" id="tareaInput" placeholder="Ingrese una Tarea" required>
+        <button class="btn btn-danger mx-1" type="button" id="buttonAgregar">Agregar a lista de tareas</button>
+        <button class="btn btn-danger" type="button" id="buttonEliminar">Eliminar de la lista de tareas</button>
+    </form>
     <div>
-        <button class="btn btn-primary my-4" type="button" id="button-addon2">Mostrar lista de tareas</button>
+        <button class="btn btn-primary my-4" type="button" id="button-mostrar">Mostrar lista de tareas</button>
     </div>
+    <section>
+        <ul class="list-group" id="listaDeTareas">
+            <li class="list-group-item"><a href=""></a></li>
+            <li class="list-group-item"><a href=""></a></li>
+            <li class="list-group-item"><a href=""></a></li>
+        </ul>
+    </section>
 </main>
 <footer class="bg-dark text-danger text-center py-4">
     <p>&copy;Todos los derechos reservados</p>
