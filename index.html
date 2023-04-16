@@ -1,39 +1,67 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Ejercicio n3 del practico 5 de Javascript">
-    <meta name="keywords" content="Agenda, DOM, BOM, Ejercicio, Numeros Magicos, Javascript, Comision 42i, RollingCode">
-    <meta name="author" content="Esteban Molina">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital@1&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Ejercicio n3 del practico 5 de Javascript"
+    />
+    <meta
+      name="keywords"
+      content="Agenda, DOM, BOM, Ejercicio, Numeros Magicos, Javascript, Comision 42i, RollingCode"
+    />
+    <meta name="author" content="Esteban Molina" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:ital@1&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
     <title>Trabajo Practico nº5</title>
-</head>
-<body>
+  </head>
+  <body>
     <main class="container text-center">
-    <h1 class="mt-5 text-light">Agenda de tareas 📝</h1>
-    <hr>
-    <div id="fecha"></div>
-    <div class="agregar-tarea mx-lg-5">
-        <input type="text" id="tareaInput" placeholder="Ingrese una Tarea" required>
+      <h1 class="mt-5 text-light">Agenda de tareas 📝</h1>
+      <hr />
+      <div id="fecha"></div>
+      <div class="agregar-tarea mx-lg-5">
+        <input
+          type="text"
+          id="tareaInput"
+          placeholder="Ingrese una Tarea"
+          required
+        />
         <i id="agregar" class="bi bi-plus-circle"></i>
-    </div>
-    <section class="seccion-tareas mx-lg-5">
-        <h3 class="mt-3">Lista de tareas:<hr></h3>
-        <ul class="list-group" id="listaDeTareas">
-        </ul>
-    </section>
-</main>
-<footer class="bg-dark text-danger text-center py-4">
-    <p>&copy;Todos los derechos reservados</p>
-</footer>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
-<script src="./js/tareas.js"></script>
-</body>
+      </div>
+      <section class="seccion-tareas mx-lg-5">
+        <h3 class="mt-3">
+          Lista de tareas:
+          <hr />
+        </h3>
+        <ul class="list-group" id="listaDeTareas"></ul>
+      </section>
+    </main>
+    <footer class="bg-dark text-danger text-center py-4">
+      <p>&copy;Todos los derechos reservados</p>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js/tareas.js"></script>
+  </body>
 </html>
