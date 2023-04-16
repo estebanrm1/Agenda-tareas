@@ -1,86 +1,86 @@
-body{
+body {
     min-height: 100vh;
-    display:flex;
+    display: flex;
     flex-direction: column;
     font-family: 'Ubuntu', sans-serif;
 }
 
-main{
+main {
     background-color: #e94e51;
-background-image: linear-gradient(180deg, #e94e51 0%, #d7a749 100%);
-
+    background-image: linear-gradient(180deg, #e94e51 0%, #d7a749 100%);
     flex-grow: 1;
 }
 
-#fecha{
+#fecha {
     color: white;
     padding: 50px 0 5px 0;
 }
 
 
 
-.agregar-tarea{
-background-color: white;
-border-radius: 15px;
-height: 70px;
-display: flex;
-padding: 10px;
-gap: 10px;
+.agregar-tarea {
+    background-color: white;
+    border-radius: 15px;
+    height: 70px;
+    display: flex;
+    padding: 10px;
+    gap: 10px;
 }
 
-.agregar-tarea input{
-width: 100%;
-height: 100%;
-border-radius: 8px;
-border: none;
-background-color: white;
+.agregar-tarea input {
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    border: none;
+    background-color: white;
 }
 
-.agregar-tarea i{
-font-size: 35px;
-color: rgb(70, 1, 150);
+.agregar-tarea i {
+    font-size: 35px;
+    color: rgb(70, 1, 150);
 }
 
-.agregar-tarea i:hover{
+.agregar-tarea i:hover {
     transform: scale(1.1);
 }
-.agregar-tarea input::placeholder{
+
+.agregar-tarea input::placeholder {
     font-size: 1.1rem;
-    color:rgb(70, 1, 150);
+    color: rgb(70, 1, 150);
 }
 
-.seccion-tareas h3{
+.seccion-tareas h3 {
     color: white;
     margin-bottom: 20px;
 }
 
-.seccion-tareas li{
+.seccion-tareas li {
     display: flex;
     background-color: #fedb97;
-background-image: linear-gradient(180deg, #fedb97 86%, #b6b6b6 100%);
-border-radius: 15px;
-padding: 10px;
-align-items: center;
-justify-content: space-between;
-margin: 5px 0;
-color: rgb(70, 1, 150);
+    background-image: linear-gradient(180deg, #fedb97 86%, #b6b6b6 100%);
+    border-radius: 15px;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-between;
+    margin: 5px 0;
+    color: rgb(70, 1, 150);
 }
 
-.seccion-tareas i{
+.seccion-tareas i {
     font-size: 25px;
-    color:rgb(70, 1, 150);
+    color: rgb(70, 1, 150);
 }
 
-.seccion-tareas i:hover{
+.seccion-tareas i:hover {
     color: rgb(245, 54, 54);
     cursor: pointer;
 }
 
-.seccion-tareas >ul p{
+.seccion-tareas>ul p {
     font-size: 1.2rem;
 }
 
-.tarea-tachada{
+.tarea-tachada {
     text-decoration: line-through;
     color: rgb(245, 54, 54);
 }
